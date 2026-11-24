@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Información · TodoJuegos</title>
+    <meta
+      name="description"
+      content="Precios por plataforma, horario, preguntas frecuentes y un vídeo recomendado de la tienda de videojuegos TodoJuegos."
+    />
+    <meta name="theme-color" content="#2F5D62" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imagenes/favicon-32.png"
+    />
+    <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Novedades de TodoJuegos"
+      href="noticias.xml"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!-- ===== CABECERA ===== -->
+    <header>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYiJkHx-vRViPvwkysx6TXCWrBTu3X3ableZ4zVgs1g&s=10"
+        alt="Logotipo de TodoJuegos: un mando de videojuegos"
+        width="40"
+        height="40"
+      />
+      <p class="logo">TodoJuegos</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="info.html" class="activo">Información</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===== CONTENIDO ===== -->
+    <main>
+      <h1>Información de la tienda</h1>
+
+      <section id="precios">
+        <h2>Precios por plataforma</h2>
+        <table>
+          <caption>
+            Precio medio de un juego según la plataforma
+          </caption>
+          <thead>
+            <tr>
+              <th>Plataforma</th>
+              <th>Nuevo</th>
+              <th>Segunda mano</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PC</td>
+              <td>45 &euro;</td>
+              <td>23 &euro;</td>
+            </tr>
+            <tr>
+              <td>Consola de sobremesa</td>
+              <td>76 &euro;</td>
+              <td>40 &euro;</td>
+            </tr>
+            <tr>
+              <td>Consola portátil</td>
+              <td>43 &euro;</td>
+              <td>25 &euro;</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="preguntas">
+        <h2>Preguntas frecuentes</h2>
+        <dl>
+          <dt>¿Puedo devolver un juego?</dt>
+          <dd>
+            Sí, durante 14 días si el juego está sin abrir y con su ticket.
+          </dd>
+          <dt>¿Compráis juegos usados?</dt>
+          <dd>Sí. Tráelos a la tienda y te hacemos una oferta al momento.</dd>
+        </dl>
+      </section>
+
+      <section id="recomendado">
+        <h2>Vídeo recomendado</h2>
+        <p>Un vídeo para conocer mejor el mundo de los videojuegos:</p>
+        <!-- La URL tiene que ser la de incrustar: termina en /embed/CÓDIGO -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wNK2fbBEV-8?si=kXWDVhWmQ-k7hc4V"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <aside>
+        <h2>Horario</h2>
+        <ul>
+          <li>Lunes a viernes: 10:00 a 20:00</li>
+          <li>Sábados: 10:00 a 14:00</li>
+          <li>Domingos: cerrado</li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- ===== PIE ===== -->
+    <footer>
+      <p>&copy; 2026 TodoJuegos &mdash; Todos los derechos reservados</p>
+      <p>Calle del Píxel, 8<br />28001 Madrid</p>
+      <p>
+        <a href="noticias.xml">Canal RSS de novedades</a><br />
+        <a
+          href="https://github.com/tuusuario/tu-repo"
+          target="_blank"
+          rel="noopener"
+          >Repositorio del proyecto en GitHub</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

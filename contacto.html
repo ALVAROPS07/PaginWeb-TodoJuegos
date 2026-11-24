@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · TodoJuegos</title>
+  <meta name="description" content="Contacta con TodoJuegos: haz tu pedido, consulta disponibilidad o cuéntanos qué juego buscas.">
+  <meta name="theme-color" content="#2F5D62">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32.png">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de TodoJuegos" href="noticias.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- ===== CABECERA ===== -->
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYiJkHx-vRViPvwkysx6TXCWrBTu3X3ableZ4zVgs1g&s=10" 
+    alt="Logotipo de TodoJuegos: un mando de videojuegos" width="40" height="40">
+    <p class="logo">TodoJuegos</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="info.html">Información</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTENIDO ===== -->
+  <main>
+    <h1>Contacto</h1>
+
+    <section id="formulario">
+      <h2>Escríbenos</h2>
+      <!-- Sin servidor: el action apunta a una página de agradecimiento -->
+      <form action="gracias.html" method="get">
+        <fieldset>
+          <legend>Tus datos</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="campo" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" class="campo" id="email" name="email" required>
+
+          <label for="pedido">Número de pedido (si ya tienes uno):</label>
+          <input type="number" class="campo" id="pedido" name="pedido" min="1" max="99999">
+        </fieldset>
+
+        <fieldset>
+          <legend>Motivo del contacto</legend>
+          <input type="radio" id="motivo-comprar" name="motivo" value="comprar" checked required>
+          <label for="motivo-comprar" class="opcion">Quiero comprar</label>
+          <input type="radio" id="motivo-vender" name="motivo" value="vender">
+          <label for="motivo-vender" class="opcion">Quiero vender un juego</label>
+          <input type="radio" id="motivo-consulta" name="motivo" value="consulta">
+          <label for="motivo-consulta" class="opcion">Tengo una consulta</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tus preferencias</legend>
+          <label for="plataforma">Plataforma que usas:</label>
+          <select id="plataforma" name="plataforma" class="campo">
+            <option value="pc">PC</option>
+            <option value="sobremesa">Consola de sobremesa</option>
+            <option value="portatil">Consola portátil</option>
+          </select>
+
+          <p>Quiero recibir avisos de:</p>
+          <input type="checkbox" id="aviso-novedades" name="avisos" value="novedades" checked>
+          <label for="aviso-novedades" class="opcion">Novedades</label>
+          <input type="checkbox" id="aviso-ofertas" name="avisos" value="ofertas">
+          <label for="aviso-ofertas" class="opcion">Ofertas</label>
+        </fieldset>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" class="campo" rows="4" required></textarea>
+
+        <p><button type="submit" class="boton">Enviar consulta</button></p>
+      </form>
+    </section>
+
+    <aside>
+      <h2>Nuestros datos</h2>
+      <div class="datos">
+        <p>Calle del Píxel, 8<br>28001 Madrid</p>
+        <p>Teléfono: 911 112 676</p>
+        <p>Correo: <strong>correoGenerico@todojuegos.com</strong></p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- ===== PIE ===== -->
+  <footer>
+    <p>&copy; 2026 TodoJuegos &mdash; Todos los derechos reservados</p>
+    <p>Calle del Píxel, 8<br>28001 Madrid</p>
+    <p>
+      <a href="noticias.xml">Canal RSS de novedades</a><br>
+      <a href="https://github.com/tuusuario/tu-repo" target="_blank" rel="noopener">Repositorio del proyecto en GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>

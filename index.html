@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TodoJuegos · Tu tienda de videojuegos</title>
+  <meta name="description" content="TodoJuegos, tu tienda de videojuegos para todas las plataformas: novedades, ofertas y clásicos retro.">
+  <meta name="theme-color" content="#2F5D62">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32.png">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de TodoJuegos" href="noticias.xml">
+  <!-- Google Fonts: ANTES de mi hoja de estilos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- ===== CABECERA ===== -->
+  <header>
+    <!-- Logo en SVG -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYiJkHx-vRViPvwkysx6TXCWrBTu3X3ableZ4zVgs1g&s=10" alt="Logotipo de TodoJuegos: un mando de videojuegos" width="40" height="40">
+    <p class="logo">TodoJuegos</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="info.html">Información</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTENIDO ===== -->
+  <main>
+    <section class="bienvenida">
+      <h1>Bienvenido a TodoJuegos</h1>
+      <p>Somos una tienda de videojuegos para <strong>todas las plataformas</strong>. Tanto si buscas el último lanzamiento como si quieres recuperar un <em>clásico de siempre</em>, aquí lo encontrarás.</p>
+      <a href="catalogo.html" class="boton">Ver el catálogo</a>
+    </section>
+
+    <section id="destacados">
+      <h2>Lo más destacado</h2>
+      <div class="rejilla">
+         <article class="tarjeta">
+          <span class="etiqueta">Nuevo!</span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXu9ewObZAmVqTRx-foUcqJxwKwjVsJvt3gwd8yhkrg&s" alt="Portada de un videojuego de aventuras en un bosque" width="400" height="250">
+          <h3>GTA VI</h3>
+          <p>Visista Leonida con Jason y Lucia, una pareja de criminales que se ve envuelta en una peligrosa conspiración mientras intenta sobrevivir en el mundo del crimen.</p>
+          <p><span class="precio">79,99 &euro;</span></p>
+        </article>
+        <article class="tarjeta">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TxQIFW7mF9eldk38bSz1vv-CiknIwP3MAPYudOHX1g&s=10" alt="Pack familiar con tres juegos para jugar en casa" width="400" height="250" loading="lazy">
+          <h3>Pack familiar</h3>
+          <p>Con la compra de <mark>3 juegos</mark> el tercero te lo rebajamos un <mark>50%</mark></p>
+        </article>
+        <article class="tarjeta">
+          <span class="etiqueta">Top Ventas!</span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiOD_csFGksulNkc2UD8Ncn8w2FQajR5V20P81htKt3w&s" alt="Portada de un videojuego de puzles de colores" width="400" height="250" loading="lazy">
+          <h3>Balatro</h3>
+          <p>Balatro es un videojuego de cartas inspirado en el póker en el que debes crear combinaciones ganadoras, para superar cuotas cada vez mas altas.</p>
+          <p><span class="precio">13,99 &euro;</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="ventajas">
+      <h2>Por qué elegirnos</h2>
+      <ul>
+        <li>Asesoramiento de gente que juega de verdad.</li>
+        <li>Juegos nuevos y de segunda mano revisados.</li>
+        <li>Recogida en tienda en menos de 24 horas.</li>
+      </ul>
+    </section>
+
+    <section id="comprar">
+      <h2>Cómo comprar</h2>
+      <ol>
+        <li>Elige tu juego en el <a href="catalogo.html">catálogo</a>.</li>
+        <li>Escríbenos desde la página de <a href="contacto.html">contacto</a>.</li>
+        <li>Te confirmamos el pedido y lo recoges en tienda.</li>
+      </ol>
+    </section>
+
+    <aside>
+      <h2>Próximo lanzamiento</h2>
+      <p>Cada viernes añadimos novedades al catálogo. ¡Vuelve a visitarnos!</p>
+    </aside>
+  </main>
+
+  <!-- ===== PIE ===== -->
+  <footer>
+    <p>&copy; 2026 TodoJuegos &mdash; Todos los derechos reservados</p>
+    <p>Calle del Píxel, 8<br>28001 Madrid</p>
+    <p>
+      <a href="noticias.xml">Canal RSS de novedades</a><br>
+      <a href="https://github.com/tuusuario/tu-repo" target="_blank" rel="noopener">Repositorio del proyecto en GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
