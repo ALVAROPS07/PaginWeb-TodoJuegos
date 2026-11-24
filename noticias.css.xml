@@ -2,21 +2,21 @@
 <rss version="2.0">
   <channel>
     <title>Novedades de TodoJuegos</title>
-    <link>https://tuusuario.github.io/tu-repo/</link>
+    <link>https://github.com/ALVAROPS07/PaginWeb-TodoJuegos</link>
     <description>Novedades, ofertas y cambios en la web de TodoJuegos</description>
     <item>
       <title>Abrimos la web de TodoJuegos</title>
-      <link>https://tuusuario.github.io/tu-repo/index.html</link>
+      <link>https://github.com/ALVAROPS07/PaginWeb-TodoJuegos/blob/main/index.html</link>
       <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Nuevo catálogo con juegos de todas las plataformas</title>
-      <link>https://tuusuario.github.io/tu-repo/catalogo.html</link>
+      <link>https://github.com/ALVAROPS07/PaginWeb-TodoJuegos/blob/main/catalogo.html</link>
       <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Ya puedes contactar con nosotros desde la web</title>
-      <link>https://tuusuario.github.io/tu-repo/contacto.html</link>
+      <link>https://github.com/ALVAROPS07/PaginWeb-TodoJuegos/blob/main/contacto.html</link>
       <pubDate>Mon, 16 Nov 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
